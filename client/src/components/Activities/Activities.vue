@@ -1,75 +1,59 @@
 <template>
     <section>
-        <v-card
-            v-for="(activitie, i) in activities"
-            :key="i"
-        >  
-            <v-img
-                class="img-size"
-                :src="require(`@/assets/images/activities/${activitie.image.src}`)"
-                :alt="activitie.image.alt"
-            >
-                <v-card-title>
-                    {{ activitie.name }}
-                </v-card-title>
-            </v-img>
-            <v-card-subtitle></v-card-subtitle>
-            <v-card-text>
-                <div>
-                    {{ activitie.description }}
-                </div>
-                <div></div>
-            </v-card-text>
-            <v-card-actions>
-                <v-btn>Más información</v-btn>
-            </v-card-actions>
-        </v-card>
+        <h2 class="mt-10 d-flex justify-center">Actividades para disfurtar en la villa</h2>
+            <div class="d-flex flex-wrap justify-center mt-6">
+                <v-card
+                    v-for="(activitie, i) in activities"
+                    :key="i"
+                    class="card ma-6"
+                    elevation="12"
+                >
+                    <v-img
+                        class="img-size"
+                        :src="require(`@/assets/images/activities/${activitie.image.src}`)"
+                        :alt="activitie.image.alt"                    
+                    >
+                        <div class="golden">
+                            <v-card-title>{{ activitie.name }}</v-card-title>
+                            <v-card-subtitle class="d-flex">#{{ activitie.category }}</v-card-subtitle>
+                        </div>
+                    </v-img>
+                    <v-card-text>
+                        <div class="ma-4">{{ activitie.description }}</div>
+                    </v-card-text>
+                </v-card>
+            </div>
+        <div>
+            <p class="rights">
+                Todas las imágenes de la sección <b><em>actividades</em></b> corresponden a la web de Villa La Angostura. 
+                <a href="https://www.villalaangosturaturismo.gob.ar/">Visitar.</a>
+            </p>
+            
+        </div>
     </section>
-    <!-- <div>        
-        <v-card
-            class="mx-auto"
-            max-width="400"
-        >
-            <v-img
-            class="white--text align-end"
-            height="200px"
-            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-            >
-            <v-card-title>Top 10 Australian beaches</v-card-title>
-            </v-img>
-
-            <v-card-subtitle class="pb-0">
-            Number 10
-            </v-card-subtitle>
-
-            <v-card-text class="text--primary">
-            <div>Whitehaven Beach</div>
-
-            <div>Whitsunday Island, Whitsunday Islands</div>
-            </v-card-text>
-
-            <v-card-actions>
-            <v-btn
-                color="orange"
-                text
-            >
-                Share
-            </v-btn>
-
-            <v-btn
-                color="orange"
-                text
-            >
-                Explore
-            </v-btn>
-            </v-card-actions>
-        </v-card>
-    </div> -->
 </template>
 <script src="./Activities"></script>
 <style scoped>
     .img-size {
         height: 500px;
         width: 375px;
+    }
+    .card {
+        width: 375px;
+    }
+    .btn {
+        color: #2196F3;
+    }
+    .rights {
+        font-size: 8px;
+    }
+    .golden {
+        background-color: goldenrod;
+    }
+    .white {
+        background-color: white;
+    }
+    .red {
+        background-color: red;
     }
 </style>

@@ -8,6 +8,7 @@ export default {
                         src: 'buceo.jpg', 
                         alt: 'buceo' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -16,6 +17,7 @@ export default {
                         src: 'cabalgatas.jpg', 
                         alt: 'cabalgatas' 
                     },
+                    category: 'Aventura',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -24,6 +26,7 @@ export default {
                         src: 'canopy.jpg', 
                         alt: 'canopy' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -32,6 +35,7 @@ export default {
                         src: 'congresos-convenciones.jpg', 
                         alt: 'congresos y convenciones' 
                     },
+                    category: 'Academico',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -40,6 +44,7 @@ export default {
                         src: 'esqui-snowboard.jpg', 
                         alt: 'esquí y snowboard' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -48,6 +53,7 @@ export default {
                         src: 'eventos-culturales.jpg', 
                         alt: 'eventos culturales' 
                     },
+                    category: 'Cultura',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -56,14 +62,16 @@ export default {
                         src: 'eventos-deportivos.jpg', 
                         alt: 'eventos deportivos' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
-                    name: 'Excursiones en la localidad y alrededores', 
+                    name: 'Excursiones', 
                     image: { 
                         src: 'excursiones-cercanas.jpg', 
                         alt: 'excursiones en la localidad y alrededores' 
                     },
+                    category: 'Avetura',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -72,6 +80,7 @@ export default {
                         src: 'kayak-dukies.jpg', 
                         alt: 'kayak, dukies y SUP' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -80,6 +89,7 @@ export default {
                         src: 'kitesurf-windsurf.jpg', 
                         alt: 'kitesurf y windsurf' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 },
                 {   
@@ -88,6 +98,7 @@ export default {
                         src: 'mountain-bike.jpg', 
                         alt: 'mountain bike' 
                     },
+                    category: 'Deportes',
                     description: 'Breve relato que incluye información sobre dónde y como prácticar esta actividad. Además de consejos y recomendaciones para hacerlo de manera segura.'
                 }
             ]

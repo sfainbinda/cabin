@@ -32,4 +32,11 @@
     color: #2c3e50;
     /* margin-top: 60px; */
 }
+.navbar-container {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    /* top: 0; */
+    z-index: 1;
+}
 </style>
