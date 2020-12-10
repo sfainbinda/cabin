@@ -1,6 +1,8 @@
 <template>
     <section>
-        <h2 class="mt-10 d-flex justify-center">Actividades para disfurtar en la villa</h2>
+        
+        <div class="mt-10 title-section">Actividades para distrufar en La Villa</div>
+        <!-- <h2 class="mt-10 d-flex justify-center">Actividades para disfurtar en la villa</h2> -->
             <div class="d-flex flex-wrap justify-center mt-6">
                 <v-card
                     v-for="(activitie, i) in activities"
@@ -34,6 +36,10 @@
 </template>
 <script src="./Activities"></script>
 <style scoped>
+    .title-section {
+        font-size: 20px;
+        font-weight: 500;
+    }
     .img-size {
         height: 500px;
         width: 375px;

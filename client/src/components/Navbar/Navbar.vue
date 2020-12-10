@@ -1,7 +1,9 @@
 <template>
     <div class="d-flex navbar-container">
         <div class="logo d-flex align-center justify-center">
-            <a href="#" class="ml-10 font-weight-black headline">La Angostura</a>
+            <a href="#">
+                <img src="../../assets/images/logo/logo.png" alt="La Pampita logo">
+            </a>
         </div>
         <div class="btns d-flex align-center justify-center">
             <ul class="ma-0 pa-0">
@@ -24,15 +26,16 @@
 <style scoped>
     a {
         color: #000000;
-        font-size: 20px;
-        letter-spacing: 1.5px;
+        font-size: 16px;
+        font-weight: 200;
+        letter-spacing: 2px;
         text-decoration: none;
     }
     li {
         list-style: none;
     }
     .logo {
-        height: 80px;
+        height: 150px;
         width: 30%;
     }
     .btns {

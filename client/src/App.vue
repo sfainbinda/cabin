@@ -3,6 +3,7 @@
         <Navbar></Navbar>
         <v-main>
             <MainBanner></MainBanner>
+            <AboutUs></AboutUs>
             <Activities></Activities>
         </v-main>
     </v-app>
@@ -11,21 +12,24 @@
 <script>
     import Navbar from './components/Navbar/Navbar.vue';
     import MainBanner from './components/MainBanner/MainBanner.vue';
+    import AboutUs from './components/AboutUs/AboutUs.vue';
     import Activities from './components/Activities/Activities.vue';
 
     export default {
-      name: 'App',
-      components: {
-          Navbar,
-          MainBanner,
+        name: 'App',
+        components: {
+            Navbar,
+            MainBanner,
+            AboutUs,
             Activities
-      }
+        }
 }
 </script>
 
 <style>
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
