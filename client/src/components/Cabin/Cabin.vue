@@ -1,6 +1,14 @@
 <template>
     <section>
-        <div>
+        <div class="ma-12">
+            <v-row
+                class="title-container d-flex align-center justify-center"
+            >
+                <div>Nuestras cabañas</div>
+            </v-row>
+            <v-divider
+                class="ma-6"
+            />
             <v-row
                 v-for="(cabin, i) in cabins"
                 :key="i"
@@ -106,6 +114,7 @@
 <style scoped>
     .carousel-container {
         width: 740px;
+        z-index: 0;
     }
     .description-container {
         color: #7B4F1C;
@@ -137,15 +146,5 @@
         font-size: 20px;
         font-weight: 500;
         width: 100%;
-    }
-    
-    .golden {
-        background-color: goldenrod;
-    }
-    .salmon {
-        background-color: salmon;
-    }
-    .green {
-        background-color: greenyellow;
     }
 </style>

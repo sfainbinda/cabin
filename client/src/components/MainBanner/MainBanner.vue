@@ -14,7 +14,7 @@
                     class="sheet"
                 >
                     <img 
-                        :src="require(`@/assets/images/cabin/${slide.src}`)" 
+                        :src="require(`@/assets/images/banner/${slide.src}`)" 
                         :alt="slide.alt"
                         class="img-banner"
                     >
@@ -25,7 +25,8 @@
 <script src="./MainBanner" ></script>
 <style scopped>
     .carousel {
-        margin-top: 150px;
+        margin-top: 130px;
+        z-index: 0;
     }
     .img-banner {
         height: 100%;

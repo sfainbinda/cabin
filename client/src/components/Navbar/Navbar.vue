@@ -1,6 +1,4 @@
-<template
-    
-    >
+<template>    
     <div 
         class="d-flex navbar-container"
     >   
@@ -19,7 +17,7 @@
                         v-for="(item, index) in items" 
                         :key="index"
                         :id="item.id"
-                        class="ml-10 font-weight-light"
+                        class="ml-10"
                     >
                         {{ item.name }}
                     </a>
@@ -31,9 +29,9 @@
 <script src="./Navbar.js"></script>
 <style scoped>
     a {
-        color: #000000;
+        color: #7B4F1C;
         font-size: 16px;
-        font-weight: 200;
+        font-weight: 500;
         letter-spacing: 2px;
         text-decoration: none;
     }
@@ -41,7 +39,7 @@
         list-style: none;
     }
     .logo {
-        height: 150px;
+        height: 130px;
         width: 30%;
     }
     .btns {

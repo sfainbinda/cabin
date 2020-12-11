@@ -1,10 +1,14 @@
 export default {
     data() {
         return {
-            about: [
-                { detail: 'Sobre un predio de 2 hectareas, rodeado de montañas y una magnífica vista al Lago Correntoso, reconocido como el mas corto del mundo y especialmente recomendado para la pesca deportiva con mosca, Cabañas La Pampita le ofrece un lugar de privilegio en el jardín de la Patagonia Argentina.' },
-                { detail: 'Con la impronta de una típica casa de montaña nuestras 3 cabañas construidas artesanalmente en tronco y madera ofrecen todas las comodidades para grupos de 4 a 7 personas, parrilla, estacionamiento, piscina descubierta, servicio de blanco y limpieza dan marco a un lugar pensado para hacer verdaderamente placentera su estadía en Villa La Angostura.' }
-            ]
+            model: 0,
+            images: [
+                { src: 'estate-1.jpg', alt: 'Parque - La Pampita' },
+                { src: 'estate-2.jpg', alt: 'Parque - La Pampita' },
+                { src: 'estate-3.jpg', alt: 'Parque - La Pampita' },
+                { src: 'alpine1-4px-1.jpg', alt: 'Cabaña alpina - 4 personas'},
+                { src: 'cabin2-7px-1.jpg', alt: 'Cabaña - 7 personas'}
+            ],
          }
     }
 }
