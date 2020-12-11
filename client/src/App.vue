@@ -4,7 +4,8 @@
         <v-main>
             <MainBanner></MainBanner>
             <AboutUs></AboutUs>
-            <Activities></Activities>
+            <Cabin></Cabin>
+            <!-- <Activities></Activities> -->
         </v-main>
     </v-app>
 </template>
@@ -14,6 +15,7 @@
     import MainBanner from './components/MainBanner/MainBanner.vue';
     import AboutUs from './components/AboutUs/AboutUs.vue';
     import Activities from './components/Activities/Activities.vue';
+    import Cabin from './components/Cabin/Cabin.vue';
 
     export default {
         name: 'App',
@@ -21,6 +23,7 @@
             Navbar,
             MainBanner,
             AboutUs,
+            Cabin,
             Activities
         }
 }

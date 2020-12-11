@@ -10,9 +10,8 @@
             :key="i"
             >
                 <v-sheet
-                    :color="slide.color"
-                    height="100%"
                     tile
+                    class="sheet"
                 >
                     <img 
                         :src="require(`@/assets/images/cabin/${slide.src}`)" 
@@ -31,5 +30,8 @@
     .img-banner {
         height: 100%;
         width: 100%;
+    }
+    .sheet {
+        height: 100%;
     }
 </style>

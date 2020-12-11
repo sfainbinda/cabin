@@ -1,6 +1,12 @@
-<template>
-    <div class="d-flex navbar-container">
-        <div class="logo d-flex align-center justify-center">
+<template
+    
+    >
+    <div 
+        class="d-flex navbar-container"
+    >   
+        <div 
+            class="logo d-flex align-center justify-center"
+        >
             <a href="#">
                 <img src="../../assets/images/logo/logo.png" alt="La Pampita logo">
             </a>
