@@ -45,7 +45,7 @@
                 <v-col>
                     <v-window
                         v-model="window"
-                        class="elevation-6"
+                        class="elevation-6 mb-6"
                         vertical
                     >
                         <v-window-item

@@ -16,7 +16,6 @@
                         :href="`#${item.ref}`"
                         v-for="(item, index) in items" 
                         :key="index"
-                        :id="item.id"
                         class="ml-10"
                     >
                         {{ item.name }}

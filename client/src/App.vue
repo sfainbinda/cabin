@@ -8,6 +8,7 @@
             <Activities></Activities>
             <Location></Location>
             <Contact></Contact>
+            <DevContact></DevContact>
         </v-main>
     </v-app>
 </template>
@@ -20,6 +21,7 @@
     import Location from './components/Location/Location.vue';
     import Activities from './components/Activities/Activities.vue';
     import Contact from './components/Contact/Contact.vue';
+    import DevContact from './components/DevContact/DevContact.vue';
 
     export default {
         name: 'App',
@@ -31,6 +33,7 @@
             Location,
             Activities,
             Contact,
+            DevContact
         }
 }
 </script>
