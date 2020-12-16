@@ -88,8 +88,7 @@
         background-color: salmon;
     }
     .carousel-container {
-        height: 400px;
-        width: 600px;
+        width:  600px;
         z-index: 0;
     }
     .img-cabin {

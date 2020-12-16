@@ -80,7 +80,7 @@
                         cols="12"
                         md="8"
                         sm="8"
-                        class="mt-4 d-flex align-center justify-center"
+                        class="mt-4 d-flex flex-column align-center justify-center"
                     >
                         <v-carousel
                             v-model="model"
@@ -104,6 +104,11 @@
                                 </v-sheet>
                             </v-carousel-item>
                         </v-carousel>
+                        <p
+                            class="pamapita-rights text-left ma-0"
+                        >
+                            La presente fotografía y toda la información de las cabañas corresponde a <a href="http://www.lapampita.com/pesca.html">La Pampita</a>
+                        </p>
                     </v-col>    
                 </v-row>
             </v-row>
@@ -132,6 +137,11 @@
         font-size: 15px;
         font-weight: 300;
         line-height: 2;
+    }
+    .pamapita-rights {
+        color: #7B4F1C;
+        font-size: 10px;
+        text-decoration: none;
     }
     .sheet-container {
         height: 100%;

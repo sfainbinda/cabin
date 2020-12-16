@@ -5,9 +5,9 @@
             <MainBanner></MainBanner>
             <AboutUs></AboutUs>
             <Cabin></Cabin>
+            <Activities></Activities>
             <Location></Location>
-            <!-- <Contact></Contact> -->
-            <!-- <Activities></Activities> -->
+            <Contact></Contact>
         </v-main>
     </v-app>
 </template>
@@ -18,8 +18,8 @@
     import AboutUs from './components/AboutUs/AboutUs.vue';
     import Cabin from './components/Cabin/Cabin.vue';
     import Location from './components/Location/Location.vue';
-    import Contact from './components/Contact/Contact.vue';
     import Activities from './components/Activities/Activities.vue';
+    import Contact from './components/Contact/Contact.vue';
 
     export default {
         name: 'App',
@@ -29,8 +29,8 @@
             AboutUs,
             Cabin,
             Location,
-            Contact,
             Activities,
+            Contact,
         }
 }
 </script>

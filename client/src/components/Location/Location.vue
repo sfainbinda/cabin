@@ -1,7 +1,5 @@
 <template>
-    <section 
-        class="background-color-grey"
-    >   
+    <section>   
         <div
             class="ma-12"
         >
